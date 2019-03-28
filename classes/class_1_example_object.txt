@@ -1,0 +1,11 @@
+Lazy Dog Bar
+attributes:
+	seat_type (string) "stool, stool, booth, table"...
+	capacity (integer) 200
+	seat_available (boolean) T
+	seat_occupied (integer) 199
+
+	Methods:
+	calculate_percent_full (takes the seat_occupied and divides that by capacity, then multiply by 100) 99.5% 
+	is_full (checks if seat_available is T; returns F if so) F
+	Number_of_seats_available (takes the seats_occupied and subtracts that from capacity) 1
