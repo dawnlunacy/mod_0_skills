@@ -1,0 +1,11 @@
+bar
+	attributes:
+	seat_type (string)
+	capacity (integer)
+	seat_available (boolean)
+	seat_occupied (integer)
+
+	Methods:
+	calculate_percent_full (takes the seat_occupied and divides that by capacity, then multiply by 100)
+	is_full (checks if seat_available is T; returns F if so)
+	Number_of_seats_available (takes the seats_occupied and subtracts that from capacity)
