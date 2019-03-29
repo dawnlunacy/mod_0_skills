@@ -1,0 +1,12 @@
+Lazy dog Kitchen
+attributes
+	plate_total (integer) 500
+	plate_available (Boolean) T
+	plate_dirty (integer) 100
+	plate_in_use (integer) 300
+	type_of_plates (array) ("small", "medium", "large")
+
+	methods
+	calculate_plate_clean( takes the plate_total and subtracts plate_dirty and plate_in_use) 100
+	calculate_percent_plate_in_use( takes plate_in_use and divides that by plate_total, then multipies by 100) 60%
+	add_types_of_plates (add new types of plates to types_of_plates array) ("extra-small,"small", "medium", "large","extra-large")
