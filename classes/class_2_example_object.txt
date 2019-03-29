@@ -1,0 +1,12 @@
+Kitchen
+	attributes
+	plate_total (integer)
+	plate_available (Boolean)
+	plate_dirty (integer)
+	plate_in_use (integer)
+	type_of_plates (array)
+
+	methods
+	calculate_plate_clean( takes the plate_total and subtracts plate_dirty and plate_in_use)
+	calculate_percent_plate_in_use( takes plate_in_use and divides that by plate_total, then multipies by 100)
+	add_types_of_plates (add new types of plates to types_of_plates array)
